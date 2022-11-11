@@ -1,0 +1,132 @@
+.boxCollaborator {
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+
+    h3 {
+        margin: 25px 0;
+        padding: 0 0 0 35px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        color: #000;
+    }
+
+    .descriptionCollaborator {
+        padding: 0 0 0 35px;
+        height: auto;
+        max-width: 760px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
+        margin: 0 0 35px 0;
+    }
+
+    .imagemCollaborator {
+        max-width: 780px;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 35px;
+        margin: 0 0 19px 0 !important;
+
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 100% !important;
+        }
+    }   
+
+    .boxAvaliacao {
+        display: flex;
+        margin: 15px 0;
+        padding: 0 0 0 35px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        color: #000;
+        gap:8px;
+    }
+
+    .imagemCollaborator {
+        max-width: 780px;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 35px;
+        margin: 0 0 19px 0 !important;
+
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 100% !important;
+        }
+    }   
+}
+
+
+/* Estilo para Tablet 768px */
+@media only screen and (max-width: 787px) {
+    .boxCollaborator {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+
+        .imagemCollaborator {
+            width: 90%;
+            height: auto;
+            padding: 0;
+            margin: 0 auto !important;
+
+            img {
+                width: 100%;
+                height: auto;
+                padding: 0;
+                margin: 0 auto;
+            }
+        }
+
+        .descriptionCollaborator {
+            width: 95%;
+            text-align: justify;
+            margin: 20px 0;
+        }
+
+        .boxAvaliacao {
+            margin: 20px 0;
+        }
+    }
+}
+
+/* Estilo para Smpartphone 425px (mobile) */
+@media only screen and (max-width: 425px) {
+    .boxCollaborator {
+        width: 100%;
+        height: auto;
+        padding: 0;
+
+        h3 {
+            width: 90%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .boxAvaliacao {
+            width: 90%;
+            height: auto;
+            margin: 15px auto;
+            padding: 0;
+        }
+
+        .descriptionCollaborator {
+            width: 90%;
+            padding: 0;
+            margin: 20px auto;
+        }
+    }
+}

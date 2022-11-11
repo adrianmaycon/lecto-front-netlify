@@ -1,0 +1,101 @@
+.recomendamos-section {
+    padding: 0 0 0 35px;
+    display: flex;
+    max-width: 800px !important;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    h2 {
+        padding: 0 0 0 35px;
+    }
+
+    .box-recomendamos {
+        cursor: pointer;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0 0 0;
+
+        .link-recomendamos {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .link-recomendamos:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 223px;
+            height: 167px;
+        }
+
+        .recomendamos h2 {
+            margin: 20px 0 0 0;
+            padding: 0;
+            height: 52px;
+            width: 223px;
+            text-align: justify;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+}
+
+/* Estilo para Tablet 768px */
+@media only screen and (max-width: 787px) {
+    .recomendamos-section {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        padding: 0;
+        gap: 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+}
+
+/* Estilo para Smartphone 425px */
+@media only screen and (max-width: 425px) {
+
+    .recomendamos-section {
+        width: 90%;
+        height: auto;
+        margin: 50px 0 0 0;
+
+        .box-recomendamos {
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+
+            .recomendamos {
+                margin: 0;
+                width: 90%;
+                margin: 0 auto;
+
+                h2 {
+                    margin: 10px 0;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+}
