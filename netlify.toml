@@ -1,5 +1,4 @@
 [build]
-  # command Netlify CLI will run to build
-  command = "yarn build" 
-  # Directory it will publish
-  publish = "build"
+base = "."
+command = "yarn run build"
+publish = "./build/"
